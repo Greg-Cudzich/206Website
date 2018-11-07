@@ -3,7 +3,12 @@
     <head>
         <title>Soccer Star Scorekeeping </title>
     </head>
-    <link href="206project.css" rel="stylesheet">
+       
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+      
+    <link rel="stylesheet" href="counter.css">
+    <link rel="stylesheet" href="206project.css">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <body>
     <header>
@@ -11,257 +16,37 @@
     </header>
     <main>
 <div>
- <table align = left>
-<tr>
-        <td colspan="5" class="label"><a href="englishpage.html">English League</a></td>
+   <h1>Live Scores</h1>
+
+    <div id="scoreboard">
+
+      <table>
+        <tr data-game-id="SOME-IDENTIFIER">
+    <td class="team home">
+        <h3>HOME TEAM NAME</h3>
+    </td>
+    <td class="score home">
+        <div id="counter-0-home"></div>
+    </td>
+    <td class="divider">
+        <p>:</p>
+    </td>
+    <td class="score away">
+        <div id="counter-0-away"></div>
+    </td>
+    <td class="team away">
+        <h3>AWAY TEAM NAME</h3>
+    </td>
 </tr>
-						<tr class="col">
-							<th>pos</th>
-							<th>Team</th>
-							<th>GP</th>
-							<th>W</th>
-							<th>D</th>
-							<th>L</th>
-							<th>GD</th>
-							<th>PTS</th>
-						</tr>
-						<tr class="toptable">
-							<td>1</td>
-							<td>Warriors FC</td>
-							<td>2</td>
-							<td>2</td>
-							<td>0</td>
-							<td>0</td>
-							<td>5</td>
-							<td>6</td>
-						</tr>
-						<tr class="toptable">
-							<td>2</td>
-							<td>East Ham FC</td>
-							<td>2</td>
-							<td>2</td>
-							<td>0</td>
-							<td>0</td>
-							<td>4</td>
-							<td>6</td>
-						</tr>
-						<tr class="toptable">
-							<td>3</td>
-							<td>Todpond Lillynannies</td>
-							<td>2</td>
-							<td>1</td>
-							<td>1</td>
-							<td>0</td>
-							<td>4</td>
-							<td>4</td>
-						</tr>
-						<tr class="toptable">
-							<td>4</td>
-							<td>FC Handerdale</td>
-							<td>2</td>
-							<td>1</td>
-							<td>1</td>
-							<td>0</td>
-							<td>1</td>
-							<td>4</td>
-						</tr>
-						<tr class="toptable">
-							<td>5</td>
-							<td>Burnwitch Rovers</td>
-							<td>2</td>
-							<td>1</td>
-							<td>0</td>
-							<td>1</td>
-							<td>0</td>
-							<td>3</td>
-						</tr>
-						<tr class="toptable">
-							<td>6</td>
-							<td>Hooverdale FC</td>
-							<td>3</td>
-							<td>1</td>
-							<td>0</td>
-							<td>2</td>
-							<td>-1</td>
-							<td>3</td>
-						</tr>
-						<tr class="toptable">
-							<td>7</td>
-							<td>Wasseypur FC</td>
-							<td>2</td>
-							<td>1</td>
-							<td>0</td>
-							<td>1</td>
-							<td>-2</td>
-							<td>3</td>
-						</tr>
-						<tr class="toptable">
-							<td>8</td>
-							<td>East Ham United</td>
-							<td>1</td>
-							<td>0</td>
-							<td>1</td>
-							<td>0</td>
-							<td>0</td>
-							<td>1</td>
-						</tr>
-						<tr class="lowertable">
-							<td>9</td>
-							<td>FC boilerhood</td>
-							<td>2</td>
-							<td>0</td>
-							<td>1</td>
-							<td>1</td>
-							<td>-1</td>
-							<td>1</td>
-						</tr>
-						<tr class="lowertable">
-							<td>10</td>
-							<td>Pondfil Rovers</td>
-							<td>2</td>
-							<td>0</td>
-							<td>0</td>
-							<td>2</td>
-							<td>-4</td>
-							<td>0</td>
-						</tr>
-						<tr class="lowertable">
-							<td>11</td>
-							<td>North Ham United</td>
-							<td>2</td>
-							<td>0</td>
-							<td>0</td>
-							<td>2</td>
-							<td>-5</td>
-							<td>0</td>
-						</tr>
-						</table>
-						
-<table align = right>
-<tr>
-        <td colspan="5" class="label"><a href="germanteam.html">German League</a></td>
-</tr>
-						<tr class="col">
-							<th>pos</th>
-							<th>Team</th>
-							<th>GP</th>
-							<th>W</th>
-							<th>D</th>
-							<th>L</th>
-							<th>GD</th>
-							<th>PTS</th>
-						</tr>
-						<tr class="toptable">
-							<td>1</td>
-							<td>FC KobbleKoof</td>
-							<td>2</td>
-							<td>2</td>
-							<td>0</td>
-							<td>0</td>
-							<td>5</td>
-							<td>6</td>
-						</tr>
-						<tr class="toptable">
-							<td>2</td>
-							<td>Doofindorf FC</td>
-							<td>2</td>
-							<td>2</td>
-							<td>0</td>
-							<td>0</td>
-							<td>4</td>
-							<td>6</td>
-						</tr>
-						<tr class="toptable">
-							<td>3</td>
-							<td>Bayer 05</td>
-							<td>2</td>
-							<td>1</td>
-							<td>1</td>
-							<td>0</td>
-							<td>4</td>
-							<td>4</td>
-						</tr>
-						<tr class="toptable">
-							<td>4</td>
-							<td>FC Berliners</td>
-							<td>2</td>
-							<td>1</td>
-							<td>1</td>
-							<td>0</td>
-							<td>1</td>
-							<td>4</td>
-						</tr>
-						<tr class="toptable">
-							<td>5</td>
-							<td>East Wulvesberg</td>
-							<td>2</td>
-							<td>1</td>
-							<td>0</td>
-							<td>1</td>
-							<td>0</td>
-							<td>3</td>
-						</tr>
-						<tr class="toptable">
-							<td>6</td>
-							<td>West Wulvesberg</td>
-							<td>3</td>
-							<td>1</td>
-							<td>0</td>
-							<td>2</td>
-							<td>-1</td>
-							<td>3</td>
-						</tr>
-						<tr class="toptable">
-							<td>7</td>
-							<td>Weisser FC</td>
-							<td>2</td>
-							<td>1</td>
-							<td>0</td>
-							<td>1</td>
-							<td>-2</td>
-							<td>3</td>
-						</tr>
-						<tr class="toptable">
-							<td>8</td>
-							<td>East Furtherfort United</td>
-							<td>1</td>
-							<td>0</td>
-							<td>1</td>
-							<td>0</td>
-							<td>0</td>
-							<td>1</td>
-						</tr>
-						<tr class="lowertable">
-							<td>9</td>
-							<td>FC Schackle</td>
-							<td>2</td>
-							<td>0</td>
-							<td>1</td>
-							<td>1</td>
-							<td>-1</td>
-							<td>1</td>
-						</tr>
-						<tr class="lowertable">
-							<td>10</td>
-							<td>West Kolougne</td>
-							<td>2</td>
-							<td>0</td>
-							<td>0</td>
-							<td>2</td>
-							<td>-4</td>
-							<td>0</td>
-						</tr>
-						<tr class="lowertable">
-							<td>11</td>
-							<td>Fighters FC</td>
-							<td>2</td>
-							<td>0</td>
-							<td>0</td>
-							<td>2</td>
-							<td>-5</td>
-							<td>0</td>
-						</tr>
-</table>
+      </table>
+
+    </div>
+
+    <script src="//code.jquery.com/jquery.js"></script>    
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="/assets/js/vendor/flipcounter.js"></script>
+    <script src="/assets/js/vendor/mustache.js"></script>
+    <script src="/assets/js/app.js"></script>    
        </div>
     </main>
         <p>

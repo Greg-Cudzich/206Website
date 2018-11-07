@@ -1,13 +1,3 @@
-/**
- * Apple-Style Flip Counter
- * Version 0.5.3 - May 7, 2011
- *
- * Copyright (c) 2010 Chris Nanney
- * http://cnanney.com/journal/code/apple-style-counter-revisited/
- *
- * Licensed under MIT
- * http://www.opensource.org/licenses/mit-license.php
- */
 
 var flipCounter = function(d, options){
 

@@ -24,68 +24,55 @@ padding: 2em;
 input, textarea { display: block;
 			  margin-bottom: 1em; }
 
-.ptable table{
-	margin: 30px auto;
-	border-collapse: collapse;
+#scoreboard {
+	max-width: 800px;
+	
 }
 
-.ptable{
-	margin: 0px 0% 30px 0%;
+#scoreboard table {
+	width: 100%;
 }
 
-th, td {
-    padding: 10px;
+#scoreboard table tr {
+	margin-bottom: 10px;
 }
 
-th{
-	background-color: black;
-	color: #ffe221;
+#scoreboard table td {
+	
 }
 p{
 text-align: center;}
 
-.headin{
+#scoreboard table td.team {
+	width: 33%;	
+}
+
+#scoreboard table td.home {	
+	text-align: right;
+}
+
+#scoreboard table td.home .flip-counter {
+	float: right;
+}
+
+#scoreboard table td.team h3 {
+	margin: 0 10px 0 10px;
+	line-height: 30px;
+	cursor: pointer;
+}
+
+#scoreboard table td.score {
+	width: 15%;
+}
+
+#scoreboard table td.divider {
+	width: 4%;		
 	text-align: center;
-	text-decoration: none;
-	color: #ffe221;
-	margin: 30px;
-	display: block;
 }
 
-.toptable{
-	text-align: center;
-}
-
-.toptable td{
-	color: black;
-}
-
-.lowertable{
-	text-align: center;
-}
-
-.lowertable td{
-	color: #8B0000;
-}
-
-table .col{
-	border-bottom: 1px solid #FFFFFF;
-}
-
-.toptable:hover{
-	background-color: #ffff;
-}
-
-.toptable:hover td{
-	color: #000000;
-}
-
-.lowertable:hover{
-	background-color: #ff6347;
-}
-
-.lowertable:hover td{
-	color: #000000;
+#scoreboard table td.divider p {
+	font-size: 2em;
+	line-height: 30px;	
 }
 
 header {
