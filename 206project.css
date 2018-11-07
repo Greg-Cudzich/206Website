@@ -1,0 +1,173 @@
+
+*{
+	font-family: Fjalla One;
+  margin: 0;
+	border: 0;
+	padding: 0;
+	//color: white;
+}
+
+html{
+   background-color:#9ACD32;
+}
+h2{
+    text-align: center;
+}
+form{
+padding: 2em;
+}
+#mySubmit{
+    margin-left: 9.5em;
+}
+
+
+input, textarea { display: block;
+			  margin-bottom: 1em; }
+
+.ptable table{
+	margin: 30px auto;
+	border-collapse: collapse;
+}
+
+.ptable{
+	margin: 0px 0% 30px 0%;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th{
+	background-color: black;
+	color: #ffe221;
+}
+p{
+text-align: center;}
+
+.headin{
+	text-align: center;
+	text-decoration: none;
+	color: #ffe221;
+	margin: 30px;
+	display: block;
+}
+
+.toptable{
+	text-align: center;
+}
+
+.toptable td{
+	color: black;
+}
+
+.lowertable{
+	text-align: center;
+}
+
+.lowertable td{
+	color: #8B0000;
+}
+
+table .col{
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.toptable:hover{
+	background-color: #ffff;
+}
+
+.toptable:hover td{
+	color: #000000;
+}
+
+.lowertable:hover{
+	background-color: #ff6347;
+}
+
+.lowertable:hover td{
+	color: #000000;
+}
+
+header {
+    background-color:#ffff; 
+    height: 150px;
+    background-image: url(soccerlogo.jpeg);
+    background-repeat: no-repeat;
+}
+main{
+    background-color:#9ACD32;
+    padding-left: 0em;
+    padding-right: 0em;
+    padding-bottom: 2em;
+    padding-top: 0em;
+}
+h1 {
+    color: black;
+    font-size:200%;
+    padding-top: 45px;
+    padding-left: 400px;
+    font-size: 3em;
+}
+.label {
+   text-align: center;
+    color: blue;
+}
+footer {
+    color: black;
+    background-color:#ffff; 
+    font-style: italic;
+    font-size:.60em; 
+    text-align: center; 
+    padding-bottom: 10px;
+    border: 2px solid #ffff;
+     width: 100%;
+    height: 100%;
+     display: inline-block;
+}
+@media only screen and (max-width: 1024px) {
+	body { background-image: none;
+		  margin: 0; }
+	  
+	#wrapper { width: auto;
+			  min-width: 0;
+			  margin: 0;
+			  box-shadow: none; }
+			  
+	header {border: 5px solid #ffff;}
+    
+    h1{
+    margin-top: 0;
+    margin-bottom: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 2.5em;
+    } 
+	main {
+		  margin: 0;
+		  font-size: 90%; }	
+}
+
+@media only screen and (max-width: 768px) {
+    header { background-image: url(soccerball.png);
+		   height: 128px;
+}
+    
+    h1{font-size: 2em;
+    text-align: center;
+    padding-left: 0;
+    }
+    main{padding-top: 1px;}
+		
+	details { padding-left: 0;
+		   padding-right: 0; }
+    
+		   
+	
+	.floatleft { padding-left: 0.5em;
+			padding-right: 0.5em; }
+			
+	#mobile { display: inline; }
+	
+	#desktop { display: none; }
+}
+
