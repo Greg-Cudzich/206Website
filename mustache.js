@@ -458,7 +458,7 @@
     }
 
     // Make sure there are no open sections when we're done.
-    var openSection = sections.pop();
+     openSection = sections.pop();
     if (openSection) throw new Error('Unclosed section "' + openSection[1] + '" at ' + scanner.pos);
 
     tokens = squashTokens(tokens);
