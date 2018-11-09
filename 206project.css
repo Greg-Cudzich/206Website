@@ -32,6 +32,19 @@ input, textarea { display: block;
 .ptable{
 	margin: 0px 0% 30px 0%;
 }
+.details { 
+    padding-left: 20%;
+    padding-right: 20%;
+    overflow:auto
+}
+.floatLeft{float: right; padding: 0px 20px 20px 0px;}
+img {
+  padding: 0px 10px
+}
+.alignright {
+
+    float: right;
+}
 
 th, td {
     padding: 10px;
